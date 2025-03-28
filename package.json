@@ -1,5 +1,5 @@
 {
-    "name": "mtrext",
+    "name": "nodeping-mtrext",
     "description": "Node.js wrapper for the mtr command/tool.",
     "version": "1.0.7",
     "author": "ThatOneNeji",
@@ -12,10 +12,10 @@
         "latency check",
         "trace route"
     ],
-    "homepage": "https://github.com/ThatOneNeji/node-mtrext",
+    "homepage": "https://github.com/NodePing/node-mtrext",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ThatOneNeji/node-mtrext"
+        "url": "git+https://github.com/NodePing/node-mtrext.git"
     },
     "dependencies": {},
     "devDependencies": {
@@ -25,8 +25,8 @@
         "jsdoc": "^4.0.2"
     },
     "scripts": {
-        "documentation": "./node_modules/.bin/jsdoc -R README.md -c jsdoc.json lib/mtrext.js",
-        "lint": "./node_modules/.bin/eslint lib/mtrext.js"
+        "documentation": "jsdoc -R README.md -c jsdoc.json lib/mtrext.js",
+        "lint": "eslint lib/mtrext.js"
     },
     "main": "./lib/index.js",
     "license": "MIT"
