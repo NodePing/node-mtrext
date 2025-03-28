@@ -23,7 +23,7 @@ I was going to fork that project but I've realised that my fork would contain br
 ## 1. <a name='Installation'></a>Installation
 
 ```bash
-npm install mtrext
+npm i nodeping-mtrext
 ```
 
 ## 2. <a name='Using'></a>Using
